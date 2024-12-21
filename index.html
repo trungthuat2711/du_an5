@@ -6,9 +6,21 @@
     <title>Git log Tìm hiểu về lịch sử và quản lý thay đổi trong dự án</title>
   </head>
   <body>
-    <h1>tiêu đề</h1>
-    <h2>sửa 1</h2>
-    <h2>sửa 2</h2>
-    <h3>sửa 3</h3>
+    <h1>Khái niệm</h1>
+    <p>
+      Lệnh git log trong Git cho phép bạn xem lịch sử commit của một kho lưu
+      trữ, hiển thị danh sách các commit đã được thực hiện.<br />
+      Đây là một công cụ hữu ích để kiểm tra và theo dõi các thay đổi trong lịch
+      sử dự án của bạn.<hr>
+    </p>
+    <h1>Các tùy chọn thông dụng của git log</h1>
+    <p>
+        - git log: Hiển thị danh sách các commit, mỗi commit bao gồm SHA-1 hash, tác giả, ngày tháng, và thông điệp commit.<br>
+        - git log --oneline: Hiển thị mỗi commit trên một dòng duy nhất(id+message).<br>
+        - git log -n <number>: Hiển thị n commit gần nhất. Ví dụ, git log -n 3 sẽ hiển thị 3 commit gần nhất.<br>
+        - git log --graph: Hiển thị lịch sử commit dưới dạng biểu đồ cây.<br>
+        - git log --stat: Hiển thị các tệp đã thay đổi và thống kê các thay đổi cho mỗi commit.<br>
+        - git log --pretty=format:"%h - %an, %ar : %s": Tùy chỉnh định dạng hiển thị của log.    
+    </p>
   </body>
 </html>
